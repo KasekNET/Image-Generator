@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KasekNET - AI IMG generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+            <h1>KasekNET - Generator zdjec AI</h1>
+            <p>Wpisz swoje słowa  kluczowe i wygeneruj zdjecie</p>
+            <form class="gen-form">
+                <input type="text" id="user-prompt", placeholder="Wpisz swoje słowa klucze" autocomplete="off">
+                <button type="button" id="generate">Generuj</button>
+            </form>
+
+            <div class="result">
+                <div id="loading">Generowanie....</div>
+                <div id="image-grid"></div>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
